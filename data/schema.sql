@@ -42,3 +42,5 @@ SELECT * FROM sessions;
 CREATE USER 'kuorra'@'localhost' IDENTIFIED BY 'kuorra.2018';
 GRANT ALL PRIVILEGES ON kuorra_login.* TO 'kuorra'@'localhost';
 FLUSH PRIVILEGES;
+
+
