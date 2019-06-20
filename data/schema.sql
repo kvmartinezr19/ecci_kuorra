@@ -45,7 +45,7 @@ FLUSH PRIVILEGES;
 
 CREATE TABLE productos( 
     id_producto integer NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    producto varchar(20) NOT NULL,
+    productos varchar(20) NOT NULL,
     percio float not null,
     existencias integer NOT NULL
 )ENGINE=InnoDB DEFAULT CHARSET=latin1;
