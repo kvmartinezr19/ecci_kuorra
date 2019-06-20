@@ -43,4 +43,10 @@ CREATE USER 'kuorra'@'localhost' IDENTIFIED BY 'kuorra.2018';
 GRANT ALL PRIVILEGES ON kuorra_login.* TO 'kuorra'@'localhost';
 FLUSH PRIVILEGES;
 
+CREATE TABLE productos( 
+    id_producto integer NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    producto varchar(20) NOT NULL,
+    percio float not null,
+    existencias integer NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
